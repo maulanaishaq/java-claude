@@ -70,22 +70,18 @@ public class EmailValidator {
         if (hasSymbol && hasDot){
 
             boolean valid = indeksTempSymbol < indeksTempDot;
-            System.out.println("Email Valid " + valid);
+            System.out.println("Valid Format " + valid);
 
         }else {
-            System.out.println("Invalid Email ");
+            System.out.println("Invalid Format ");
         }
-
-
-
-
 
 
 
 
         int totalChar = email.length();
         boolean isTotalChar = totalChar <= 6 ;
-        System.out.println("Total Character: " + (isTotalChar ? "MINIMAL 6 KARAKTER" : "VALID TOTAL FORMAT"));
+        System.out.println("Total Character: " + (isTotalChar ? "MINIMAL 6 KARAKTER" : "VALID TOTAL KARAKTER"));
 
 
 
