@@ -80,8 +80,8 @@ public class EmailValidator {
 
 
         int totalChar = email.length();
-        boolean isTotalChar = totalChar <= 6 ;
-        System.out.println("Total Character: " + (isTotalChar ? "MINIMAL 6 KARAKTER" : "VALID TOTAL KARAKTER"));
+        boolean isTotalChar = totalChar >= 6 ;
+        System.out.println("Total Character: " + (isTotalChar ? "VALID TOTAL KARAKTER" : "MINIMAL 6 KARAKTER"));
 
 
 
